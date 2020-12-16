@@ -1,0 +1,23 @@
+{
+    "name": "adarkstudio",
+    "displayName": "ADarkStudio",
+    "description": "A darker studio theme",
+    "publisher": "tgburgin",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "A Dark Studio",
+                "uiTheme": "vs-dark",
+                "path": "./themes/A Dark Studio-color-theme.json"
+            }
+        ]
+    }
+}
